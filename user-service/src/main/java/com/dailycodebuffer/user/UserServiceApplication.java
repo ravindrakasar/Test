@@ -18,6 +18,7 @@ public class UserServiceApplication {
 	@Bean
 	@LoadBalanced
 	public RestTemplate restTemplate() {
+		System.out.print("ravi");
 		return new RestTemplate();
 	}
 }

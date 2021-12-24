@@ -18,6 +18,7 @@ public class UserController {
 
     @PostMapping("/")
     public User saveUser(@RequestBody User user) {
+    	System.out.println("ravindra");
    //     log.info("Inside saveUser of UserController");
         return userService.saveUser(user);
     }
